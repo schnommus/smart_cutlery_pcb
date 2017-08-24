@@ -29,11 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
+LIBS:MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_
+LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -78,5 +80,13 @@ F28 "PB12" B L 5100 4200 60
 F29 "PB13" B L 5100 4300 60 
 F30 "PB14" B L 5100 4400 60 
 F31 "PB15" B L 5100 4500 60 
+$EndSheet
+$Sheet
+S 2800 2200 950  350 
+U 599FE73E
+F0 "bluetooth" 60
+F1 "bluetooth.sch" 60
+F2 "BLUETOOTH_TX" O R 3750 2350 60 
+F3 "BLUETOOTH_RX" I R 3750 2450 60 
 $EndSheet
 $EndSCHEMATC
