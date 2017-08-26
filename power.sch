@@ -34,12 +34,14 @@ LIBS:mechanical
 LIBS:switches
 LIBS:NCP1402SN33T1G
 LIBS:diode
+LIBS:battery_management
+LIBS:sensors
 LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -445,4 +447,14 @@ F 3 "" H 9000 3400 50  0001 C CNN
 	1    9000 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2300 3750 2350 3750
+Connection ~ 2300 3750
+Wire Wire Line
+	1500 3750 1450 3750
+Connection ~ 1500 3750
+Text HLabel 1450 3750 0    60   Output ~ 0
+BAT1_V
+Text HLabel 2350 3750 2    60   Output ~ 0
+BAT2_V
 $EndSCHEMATC

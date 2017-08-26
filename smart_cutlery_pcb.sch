@@ -34,12 +34,14 @@ LIBS:mechanical
 LIBS:switches
 LIBS:NCP1402SN33T1G
 LIBS:diode
+LIBS:battery_management
+LIBS:sensors
 LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -94,9 +96,19 @@ F2 "BLUETOOTH_TX" O R 3750 2350 60
 F3 "BLUETOOTH_RX" I R 3750 2450 60 
 $EndSheet
 $Sheet
-S 7300 1400 1400 1250
+S 7300 1400 700  300 
 U 59A1225E
 F0 "power" 60
 F1 "power.sch" 60
+F2 "BAT1_V" O R 8000 1500 60 
+F3 "BAT2_V" O R 8000 1600 60 
+$EndSheet
+$Sheet
+S 5350 1550 800  250 
+U 59A2044A
+F0 "inertial_sensor" 60
+F1 "inertial_sensor.sch" 60
+F2 "I2C_SDA_PU" B R 6150 1650 60 
+F3 "I2C_SCL_PU" B R 6150 1750 60 
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=26/08/2017 1:19:08 PM
+update=26/08/2017 1:50:09 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=switches
 LibName34=custom_parts/NCP1402SN33T1G
 LibName35=diode
 LibName36=battery_management
+LibName37=sensors
