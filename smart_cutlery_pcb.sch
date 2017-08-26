@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -88,27 +88,47 @@ F30 "PB14" B L 5100 4400 60
 F31 "PB15" B L 5100 4500 60 
 $EndSheet
 $Sheet
-S 2800 2200 950  350 
+S 2700 4700 950  350 
 U 599FE73E
 F0 "bluetooth" 60
 F1 "bluetooth.sch" 60
-F2 "BLUETOOTH_TX" O R 3750 2350 60 
-F3 "BLUETOOTH_RX" I R 3750 2450 60 
+F2 "BLUETOOTH_TX" O R 3650 4850 60 
+F3 "BLUETOOTH_RX" I R 3650 4950 60 
 $EndSheet
 $Sheet
-S 7300 1400 700  300 
+S 2750 2300 700  300 
 U 59A1225E
 F0 "power" 60
 F1 "power.sch" 60
-F2 "BAT1_V" O R 8000 1500 60 
-F3 "BAT2_V" O R 8000 1600 60 
+F2 "BAT1_V" O R 3450 2400 60 
+F3 "BAT2_V" O R 3450 2500 60 
 $EndSheet
 $Sheet
-S 5350 1550 800  250 
+S 2750 3550 800  250 
 U 59A2044A
 F0 "inertial_sensor" 60
 F1 "inertial_sensor.sch" 60
-F2 "I2C_SDA_PU" B R 6150 1650 60 
-F3 "I2C_SCL_PU" B R 6150 1750 60 
+F2 "I2C_SDA_PU" B R 3550 3650 60 
+F3 "I2C_SCL_PU" B R 3550 3750 60 
+$EndSheet
+$Sheet
+S 8650 3100 1400 1300
+U 59A248F7
+F0 "touch_interface" 60
+F1 "touch_interface.sch" 60
+F2 "charge_transfer_cap1" B L 8650 3200 60 
+F3 "charge_transfer_cap2" B L 8650 3300 60 
+F4 "charge_transfer_cap3" B L 8650 3400 60 
+F5 "capsense_x1" B L 8650 3550 60 
+F6 "capsense_x2" B L 8650 3650 60 
+F7 "capsense_x3" B L 8650 3750 60 
+F8 "capsense_x4" B L 8650 3850 60 
+F9 "capsense_y1" B L 8650 4000 60 
+F10 "capsense_y2" B L 8650 4100 60 
+F11 "capsense_y3" B L 8650 4200 60 
+F12 "capsense_y4" B L 8650 4300 60 
+F13 "LED_BLUE" B R 10050 3900 60 
+F14 "LED_GREEN" B R 10050 3800 60 
+F15 "LED_RED" B R 10050 3700 60 
 $EndSheet
 $EndSCHEMATC
