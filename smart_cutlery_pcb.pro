@@ -1,4 +1,4 @@
-update=24/08/2017 11:16:44 PM
+update=26/08/2017 12:23:37 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=stm32
-LibName31=custom_parts/MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_
+LibName31=custom_parts/bluetooth_hc-05

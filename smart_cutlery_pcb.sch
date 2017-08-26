@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
-LIBS:MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_
+LIBS:bluetooth_hc-05
 LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END

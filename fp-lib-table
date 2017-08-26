@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_.mod")(options "")(descr ""))
+)
