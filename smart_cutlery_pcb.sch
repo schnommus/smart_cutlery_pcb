@@ -339,4 +339,14 @@ Wire Notes Line
 	3950 3700 4000 3700
 Text Notes 5200 4850 0    60   ~ 0
 PIN MODES => Described above in blue
+Wire Notes Line
+	1150 2250 1150 3050
+Wire Notes Line
+	1150 3050 3500 3050
+Wire Notes Line
+	3500 3050 3500 2250
+Wire Notes Line
+	3500 2250 1150 2250
+Text Notes 2050 2200 0    60   ~ 0
+OPTIONAL
 $EndSCHEMATC
