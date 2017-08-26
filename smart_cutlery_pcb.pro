@@ -1,4 +1,4 @@
-update=26/08/2017 12:23:37 PM
+update=26/08/2017 1:19:08 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,8 @@ LibName28=contrib
 LibName29=valves
 LibName30=stm32
 LibName31=custom_parts/bluetooth_hc-05
+LibName32=mechanical
+LibName33=switches
+LibName34=custom_parts/NCP1402SN33T1G
+LibName35=diode
+LibName36=battery_management

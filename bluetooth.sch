@@ -30,12 +30,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:stm32
 LIBS:bluetooth_hc-05
+LIBS:mechanical
+LIBS:switches
+LIBS:NCP1402SN33T1G
+LIBS:diode
 LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -188,4 +192,6 @@ F 8 "" H 5950 3100 50  0001 L BNN "MF"
 	1    5950 3100
 	1    0    0    -1  
 $EndComp
+Text Notes 5400 4600 0    60   ~ 0
+Firmware programming header
 $EndSCHEMATC

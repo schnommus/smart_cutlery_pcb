@@ -30,12 +30,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:stm32
 LIBS:bluetooth_hc-05
+LIBS:mechanical
+LIBS:switches
+LIBS:NCP1402SN33T1G
+LIBS:diode
 LIBS:smart_cutlery_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -88,5 +92,11 @@ F0 "bluetooth" 60
 F1 "bluetooth.sch" 60
 F2 "BLUETOOTH_TX" O R 3750 2350 60 
 F3 "BLUETOOTH_RX" I R 3750 2450 60 
+$EndSheet
+$Sheet
+S 7300 1400 1400 1250
+U 59A1225E
+F0 "power" 60
+F1 "power.sch" 60
 $EndSheet
 $EndSCHEMATC
