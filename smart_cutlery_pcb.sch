@@ -130,6 +130,7 @@ F12 "capsense_y4" B L 9050 4100 60
 F13 "LED_BLUE" B R 10450 3700 60 
 F14 "LED_GREEN" B R 10450 3600 60 
 F15 "LED_RED" B R 10450 3500 60 
+F16 "mode_switch" B R 10450 3950 60 
 $EndSheet
 Text Label 6350 2100 0    60   ~ 0
 BAT1_VSENSE
@@ -349,4 +350,12 @@ Wire Notes Line
 	3500 2250 1150 2250
 Text Notes 2050 2200 0    60   ~ 0
 OPTIONAL
+Text Label 10550 3950 0    60   ~ 0
+mode_switch
+Wire Wire Line
+	10550 3950 10450 3950
+Text Label 4300 4300 0    60   ~ 0
+mode_switch
+Wire Wire Line
+	4300 4300 5100 4300
 $EndSCHEMATC
