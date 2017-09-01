@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/MOUDLE-BLUETOOTH-HC-05_34P-27X13MM_.mod")(options "")(descr ""))
+  (lib (name bluetooth_hc-05)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/bluetooth_hc-05.mod")(options "")(descr ""))
+  (lib (name NCP1402SN33T1G)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/NCP1402SN33T1G.mod")(options "")(descr ""))
+  (lib (name BC_2011_CR1225_HOLDER)(type KiCad)(uri "$(KIPRJMOD)/BC_2011_CR1225_HOLDER.pretty")(options "")(descr ""))
 )
