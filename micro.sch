@@ -167,25 +167,14 @@ F 3 "" H 6900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
-U 1 1 599F38C9
-P 7200 1450
-F 0 "C6" H 7210 1520 50  0000 L CNN
-F 1 "1uF" H 7250 1400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7200 1450 50  0001 C CNN
-F 3 "" H 7200 1450 50  0001 C CNN
-	1    7200 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 599F39C8
-P 7050 1600
-F 0 "#PWR03" H 7050 1350 50  0001 C CNN
-F 1 "GND" H 7050 1450 50  0000 C CNN
-F 2 "" H 7050 1600 50  0001 C CNN
-F 3 "" H 7050 1600 50  0001 C CNN
-	1    7050 1600
+P 6900 1550
+F 0 "#PWR03" H 6900 1300 50  0001 C CNN
+F 1 "GND" H 6900 1400 50  0000 C CNN
+F 2 "" H 6900 1550 50  0001 C CNN
+F 3 "" H 6900 1550 50  0001 C CNN
+	1    6900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -197,17 +186,6 @@ F 1 "100n" H 4450 1300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4650 1350 50  0001 C CNN
 F 3 "" H 4650 1350 50  0001 C CNN
 	1    4650 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C4
-U 1 1 599F409F
-P 4950 1350
-F 0 "C4" H 4960 1420 50  0000 L CNN
-F 1 "1uF" H 4750 1300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4950 1350 50  0001 C CNN
-F 3 "" H 4950 1350 50  0001 C CNN
-	1    4950 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -371,8 +349,6 @@ Connection ~ 5700 5800
 Connection ~ 5600 5800
 Wire Wire Line
 	6750 1450 6750 1350
-Wire Wire Line
-	6350 1350 7200 1350
 Connection ~ 6750 1350
 Connection ~ 6900 1350
 Wire Wire Line
@@ -393,16 +369,7 @@ Wire Wire Line
 	5600 1350 6150 1350
 Connection ~ 5600 1350
 Wire Wire Line
-	6900 1550 7200 1550
-Wire Wire Line
-	7050 1600 7050 1550
-Connection ~ 7050 1550
-Wire Wire Line
 	4050 1450 4050 1550
-Wire Wire Line
-	4050 1500 4950 1500
-Wire Wire Line
-	4950 1500 4950 1450
 Wire Wire Line
 	4650 1450 4650 1500
 Connection ~ 4650 1500
@@ -412,10 +379,6 @@ Connection ~ 4350 1500
 Connection ~ 4050 1500
 Wire Wire Line
 	4050 1150 4050 1250
-Wire Wire Line
-	4050 1200 4950 1200
-Wire Wire Line
-	4950 1200 4950 1250
 Wire Wire Line
 	4350 1250 4350 1200
 Connection ~ 4350 1200
@@ -528,4 +491,10 @@ Text Notes 500  2950 0    60   ~ 0
 BOOT0=0 -> boot from flash
 Text Notes 750  3500 0    60   ~ 0
 These pins were for\noscillators. Can meb\nbe used as GPIOS\nbut meh.
+Wire Wire Line
+	6350 1350 6900 1350
+Wire Wire Line
+	4650 1200 4050 1200
+Wire Wire Line
+	4650 1500 4050 1500
 $EndSCHEMATC
