@@ -2,4 +2,5 @@
   (lib (name bluetooth_hc-05)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/bluetooth_hc-05.mod")(options "")(descr ""))
   (lib (name NCP1402SN33T1G)(type Legacy)(uri "$(KIPRJMOD)/custom_parts/NCP1402SN33T1G.mod")(options "")(descr ""))
   (lib (name BC_2011_CR1225_HOLDER)(type KiCad)(uri "$(KIPRJMOD)/BC_2011_CR1225_HOLDER.pretty")(options "")(descr ""))
+  (lib (name smart_cutlery_pcb)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
 )
