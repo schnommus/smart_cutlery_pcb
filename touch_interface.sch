@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:smart_cutlery_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -458,4 +459,8 @@ Wire Wire Line
 Wire Wire Line
 	7350 4050 6650 4050
 Connection ~ 7250 2600
+Text Notes 1850 4550 0    60   ~ 0
+47nF annotated here, 4.7nF actually used!
+Text Notes 2150 4700 0    60   ~ 0
+Improved touch sensing speed.
 $EndSCHEMATC

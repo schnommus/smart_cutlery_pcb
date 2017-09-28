@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:smart_cutlery_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -240,9 +241,11 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L BSS138 Q2
+L BSS138-RESCUE-smart_cutlery_pcb Q2
 U 1 1 59AC415E
 P 3600 3900
+AR Path="/59AC415E" Ref="Q2"  Part="1" 
+AR Path="/59A1225E/59AC415E" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3850 3950 50  0000 L CNN
 F 1 "BSS138" H 3800 3850 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3800 3825 50  0001 L CIN
@@ -489,4 +492,10 @@ Connection ~ 3900 3950
 Connection ~ 5000 3200
 Connection ~ 4450 3000
 Connection ~ 4850 3950
+Text Notes 5000 1800 0    60   ~ 0
+0603 47uH <10% efficiency. Switched to 100uH, 30% efficiency
+Text Notes 5600 2000 0    60   ~ 0
+Currently testing different footprints...
+Text Notes 6300 1550 0    60   ~ 0
+FOR L2
 $EndSCHEMATC

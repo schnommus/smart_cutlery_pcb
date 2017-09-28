@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:smart_cutlery_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
